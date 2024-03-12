@@ -7,6 +7,14 @@
       "category": "Venda",
       "price": 14000,
       "createdAt": "2024-03-09T21: 58: 31.700Z"
+    },
+    {
+      "id": 2,
+      "description": "Hamburguer",
+      "type": "outcome",
+      "category": "Alimentação",
+      "price": 50,
+      "createdAt": "2024-03-09T21: 59: 31.700Z"
     }
   ]
 }
