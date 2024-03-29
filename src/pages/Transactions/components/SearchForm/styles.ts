@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 
 export const SearchFormContainer = styled.form`
   display: flex;
@@ -8,13 +8,12 @@ export const SearchFormContainer = styled.form`
     flex: 1;
     border-radius: 6px;
     border: 0;
-    background-color: ${({ theme }) => theme["gray-900"]};
-    color: ${({ theme }) => theme["gray-300"]};
+    background-color: ${({ theme }) => theme['gray-900']};
+    color: ${({ theme }) => theme['gray-300']};
     padding: 1rem;
 
     &::placeholder {
-      color: ${({ theme }) => theme["gray-500"]};
-
+      color: ${({ theme }) => theme['gray-500']};
     }
   }
 
@@ -27,8 +26,8 @@ export const SearchFormContainer = styled.form`
     padding: 1rem;
 
     background-color: transparent;
-    border: 1px solid ${({ theme }) => theme["green-300"]};
-    color: ${({ theme }) => theme["green-300"]};
+    border: 1px solid ${({ theme }) => theme['green-300']};
+    color: ${({ theme }) => theme['green-300']};
     font-weight: bold;
     border-radius: 6px;
     cursor: pointer;
@@ -39,10 +38,10 @@ export const SearchFormContainer = styled.form`
     }
 
     &:not(:disabled):hover {
-      background-color: ${({ theme }) => theme["green-500"]};
-      border-color: ${({ theme }) => theme["green-500"]};
+      background-color: ${({ theme }) => theme['green-500']};
+      border-color: ${({ theme }) => theme['green-500']};
       color: ${({ theme }) => theme.white};
       transition: all 0.2s;
     }
   }
-`;
+`
