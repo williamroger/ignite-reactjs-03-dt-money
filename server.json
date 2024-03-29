@@ -15,6 +15,22 @@
       "category": "Alimentação",
       "price": 50,
       "createdAt": "2024-03-09T21:59:31.700Z"
+    },
+    {
+      "description": "Desenvolvimento de App",
+      "price": 10000,
+      "category": "Venda",
+      "type": "income",
+      "createdAt": "2024-03-29T02:04:31.312Z",
+      "id": 3
+    },
+    {
+      "description": "Pastel de Camarão",
+      "price": 25,
+      "category": "Alimentação",
+      "type": "outcome",
+      "createdAt": "2024-03-29T03:47:10.022Z",
+      "id": 4
     }
   ]
 }
